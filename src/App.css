@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.Applogo{
+  color:white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-left:0.2rem;
+}
+.tool_nav{
+  display:flex;
+  height: 100%;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+nav a{
+  color: white;
+  text-decoration:none;
+ 
+}
+.nav ul{
+  list-style:none;
+  margin :0;
+  padding:0;
+  display: flex;
+}
+.nav li{
+  padding:0 0.5rem;
+  color: chartreuse;
+}
+.nav a:hover,nav a:active{
+  color: #fa923f;
+}
+
+.nav_bar{
+  position:fixed;
+  background-color:purple;
+  width:100%;
+  top: 0;
+  left: 0;
+  height:50px;
+  color:white;
+}
+.spacer{
+  flex: 1;
+}
+.p{
+  margin:0 px;
+  padding: 0 px;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+  background-color: #3498db;
+  width: 100%;
+  position: absolute;
+  right: -34%;
+  border-radius: 6px;
+  z-index: -1;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.281);
+}
+  .right {
+    right: -40%;
+    align-items: flex-end;
+  }
+    .right:hover {
+      right: -45%;
+    }
+  .left {
+    right: 40%;
+    align-items: flex-start;
+  }
+    .left:hover {
+      right: 45%;
+    }
+
+  .text {
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 3em;
+    margin-left: 3em;
+  }
+  .login {
+    width: 27em;
+    height: 40em;
+    min-height: 44em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    position: relative;
+    z-index: 99;
+   
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px 12px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    padding: 17px 10px;;
+  }

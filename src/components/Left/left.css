@@ -1,0 +1,16 @@
+.left-style {
+    background: rgba(118, 67, 131, 0.582);
+    position:fixed;
+    top:50px;
+    left:0px;
+    height:680px;
+    width:250px;
+}
+p{
+    text-align: center;
+}
+@media screen and (max-width : 600px){
+    .left-style{
+        width: 40%;
+    }
+}

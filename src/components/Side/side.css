@@ -1,0 +1,59 @@
+.side-drawer {
+    height:100%;
+    background: white;
+    box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    width:200px;
+    z-index:200;
+    transform: translateX(-100%);/* length of the side nav before you open it */
+    transition: transform 0.32s ease-out;/* this provides the transion of the side nav on clicking the button */
+}
+.side-drawer.open {
+    transform: translateX(0);/* after opening/clicking */
+}
+.side-drawer a{
+    color:#521751;
+    text-decoration: none;
+    font-size:1.2rem;
+    
+}.side-drawer img{
+  width: 11em;
+  height: 11em;
+  justify-content:center;
+  margin: -450px -28px 10px; /* height left bottom*/
+ 
+}
+.side-drawer ul{
+    list-style:none;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    height:100%;
+
+}
+.side-drawer li{
+  margin:0.5rem 0; 
+  margin-top: 5px; 
+}
+.side-drawer a:hover,
+.side-drawer a:active{
+  color: #fa923f;
+}
+.btn{
+  float:right;
+  cursor: pointer;
+}
+.drawerClasses{
+  margin-top: 0rem;
+  background-color: dodgerblue;
+}
+/*
+.close{
+  width: 20px;
+  margin-left: 140px;
+  margin-top: ;
+  
+}
+*/

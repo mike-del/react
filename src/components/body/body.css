@@ -1,0 +1,24 @@
+.body-style {
+   background-color: violet;
+    position:fixed;
+    top:50px;
+    right:0px ;
+    height:680px;
+    width:890px;
+
+}
+.body-style:p{
+    text-align: center;
+}
+@media screen and (min-width:600px) {
+    .body-style {
+        width: 60%;
+       
+    }
+}
+@media screen and (max-width:600px) {
+    .body-style {
+        width: 60%;
+       
+    }
+}
